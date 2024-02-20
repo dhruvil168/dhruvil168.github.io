@@ -1,0 +1,79 @@
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "TypoGraphica";
+  src: url("typographica-font/Typographica-Blp5.ttf")
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  border-radius: 100px;
+  padding: 0 50px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav_links {
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.nav_links li {
+  font-family: "TypoGraphica";
+  font-size: 24px;
+  color: black;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0px 10px;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  color: White;
+  line-height: 1.5;
+  background-color: MediumSeaGreen;
+}
+
+.main {
+  width: 100%;
+  margin-left: 0px;
+  background-color: White;
+  border-radius: 5px;
+  color: Gray;
+}
+
+.main_text {
+  margin: 10px;
+}
+
+/*footer for credits*/
+footer {
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  color: Gray;
+  background-color: white;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
