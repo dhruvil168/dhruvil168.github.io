@@ -90,5 +90,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner {
-  background-image: url("images/GreenHome_Opening_Banner");
+  background-image: url(images/GreenHome_Opening_Banner.jpg);
+  height: 240px;
+}
+
+#bannerTitle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#bannerText {
+  display: inline-block;
+  vertical-align: middle;
 }
