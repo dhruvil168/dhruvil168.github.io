@@ -11,8 +11,13 @@ html {
 }
 
 @font-face {
-  font-family: "TypoGraphica";
-  src: url("typographica-font/Typographica-Blp5.ttf")
+  font-family: "Nexa";
+  src: url("nexa/Nexa-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("montserrat-font/MontserratRegular-BWBEl.ttf");
 }
 
 header{
@@ -40,7 +45,7 @@ nav {
 }
 
 .nav_links li {
-  font-family: "TypoGraphica";
+  font-family: "Nexa";
   font-size: 24px;
   color: black;
   display: inline-block;
@@ -51,15 +56,20 @@ nav {
 /* adjust typography defaults */
 body {
   margin: 1rem;
-  font-family: sans-serif;
+  font-family: "Montserrat";
   color: White;
   line-height: 1.5;
   background-color: MediumSeaGreen;
 }
 
+.aboutUs {
+  background-color: white;
+  border-radius: 5px;
+  color: Gray;
+}
+
 .main {
   width: 100%;
-  margin-left: 0px;
   background-color: White;
   border-radius: 5px;
   color: Gray;
@@ -90,31 +100,41 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "TypoGraphica";
-  font-weight: lighter;
+  font-family: "Nexa";
+}
+
+p {
+  font-family: "Montserrat";
 }
 
 .banner {
   background-color: dimgray;
-  background-image: url(images/GreenHome_Opening_Banner.jpg);
+  background-image: url("images/GreenHome_Opening_Banner.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: auto, -10%;
   border-radius: 5px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #bannerTitle {
-  display: inline-block;
-  text-align: left;
+  text-align: center;
   font-size: 300%;
-  width: 49%;
-  padding-left: 10px;
 }
 
 #bannerText {
+  text-align: center;
+}
+
+.solarTiles {
   display: inline-block;
   width: 49%;
-  padding-left: 25px;
+  background-color: grey;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 200%;
 }
