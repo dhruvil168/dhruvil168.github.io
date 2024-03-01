@@ -104,6 +104,8 @@ body {
   border: 2px solid cadetblue;
   border-radius: 5px;
   color: Gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .main_text {
@@ -151,11 +153,11 @@ p {
   background-color: dimgray;
   background-image: url("images/GreenHome_Opening_Banner.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   background-position: auto, -10%;
   border-radius: 5px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 #bannerTitle {
@@ -170,11 +172,14 @@ p {
 .solarTiles {
   display: inline-block;
   width: 49.83%;
-  background-color: grey;
+  background-color: slategray;
+  border: 2px solid darkslategray;
   border-radius: 5px;
   text-align: center;
   color: white;
   padding-top: 25px;
   padding-bottom: 25px;
   font-weight: 200%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
