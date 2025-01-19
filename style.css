@@ -1,14 +1,24 @@
-header {
-    background-color: silver;
-    border: 2px tomato;
+@font-face {
+    font-family: "Queensides Ligh0t";
+    src: url("fonts/queensides-font/QueensidesLight-ZVj3l.ttf");
+}
+
+@font-face {
+    font-family: "QueensidesM";
+    src: url("fonts/queensides-font/QueensidesMedium-x30zV.ttf");
+}
+
+
+.header {
+    background-color: black;
+    border-color: tomato;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 nav {
-    background-color: silver;
-    border: 2px tomato;
+    background-color: black;
     border-radius: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -43,31 +53,40 @@ nav {
 }
 
 body{
-    background-color:dimgray;
+    background-color: black;
 }
 
 .main{
     width: 100%;
-    background-color: silver;
+    background-color: whitesmoke;
     border: 2px solid tomato;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.main_text {
+    font-family: "QueensidesM";
+    margin: 10px;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     margin: 10px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 p {
     font-family: sans-serif;
-    font-weight: bold;
+    margin: 10px;
+    font-size:large;
 }
 
 a {
+    font-family: "QueensidesM";
+    text-align: center;
     text-decoration: none;
     color: white;
 }
@@ -82,8 +101,8 @@ footer {
     border-radius: 5px;
     width: 100%;
     text-align: center;
-    color: gray;
-    background-color: silver;
+    color: white;
+    font-family: "QueensidesM";
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 10px;
