@@ -9,10 +9,15 @@
 }
 
 
-.header {
-    background-color: black;
-    border-color: tomato;
+.home_banner {
+    background-image: url(home_banner.jpg);
+    background-position: bottom;
+    color:white;
+    font-weight: bolder;
+    border: 2px solid seagreen;
     border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -55,6 +60,8 @@ nav {
 
 body{
     background-color: rgb(226, 192, 148);
+    background-image: url(background_pattern.webp);
+    background-repeat: repeat;
 }
 
 .main{
@@ -114,15 +121,12 @@ a:hover {
     cursor: pointer;
 }
 
-.img_text{
-    align-items: center;
-}
 
 .mrgn_img{
     background-color: burlywood;
     border: 2px solid seagreen;
     border-radius: 9999px;
-    max-width: 250px;
+    max-width: 20vw;
     display: inline-block;
     margin: 10px;
 }
@@ -131,7 +135,10 @@ a:hover {
     background-color: burlywood;
     border: 2px solid seagreen;
     border-radius: 5px;
-    max-width: 78.6%;
+    max-width: 70vw;
+    max-height: 20vh;
+    margin-right: 0px;
+    margin-left: auto;
     align-items: end;
     display: inline-block;
 }
