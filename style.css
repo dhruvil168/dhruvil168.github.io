@@ -60,14 +60,16 @@ nav {
 
 body{
     background-color: rgb(226, 192, 148);
-    background-image: url(background_pattern.webp);
+    background-image: url(green_background_pattern.png);
+    background-size: 40%;
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 .main{
     width: 100%;
     background-color: burlywood;
-    border: 2px solid seagreen;
+    border: 2px solid #2e8a56;
     border-radius: 5px;
     color: black;
     margin-top: 5px;
@@ -86,14 +88,15 @@ body{
 }
 
 .title{
+    background-color: rgb(226, 192, 148);
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     color: black;
     font-family: "QueensidesM";
     font-weight: bolder;
     font-size: 75px;
-    border: 5px;
-    border-radius: 10000;
+    border: 0px solid seagreen;
+    border-radius: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -116,7 +119,7 @@ a {
 }
 
 a:hover {
-    color: burlywood;
+    color: rgb(177, 145, 104);
     text-decoration: underline;
     cursor: pointer;
 }
