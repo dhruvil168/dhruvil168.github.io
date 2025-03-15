@@ -82,6 +82,16 @@ body{
     text-align: center;
 }
 
+.forms_link a{
+    text-decoration: underline;
+    color: rgb(0, 108, 209);
+}
+
+.forms_link a:hover{
+    text-decoration: underline;
+    color: rgb(75, 163, 221);
+}
+
 .title_div{
     text-align: center;
     border-radius: 999;
@@ -119,7 +129,7 @@ a {
 }
 
 a:hover {
-    color: rgb(177, 145, 104);
+    color: burlywood;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -183,6 +193,7 @@ a:hover {
     background-color: seagreen;
     border-color: seagreen;
  } 
+
 
 
 /* footer{
