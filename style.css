@@ -61,7 +61,7 @@ nav {
 body{
     background-color: rgb(226, 192, 148);
     background-image: url(green_background_pattern.png);
-    background-size: 40%;
+    background-size: 50%;
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -72,11 +72,23 @@ body{
     border: 2px solid #2e8a56;
     border-radius: 5px;
     color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.main_text {
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.main_text, p {
+    opacity: 0; /* Start as invisible */
+    animation: fadeIn 2s ease-in-out forwards; /* Apply the animation */
     font-family: "QueensidesM";
     margin: 10px;
     text-align: center;
@@ -97,6 +109,16 @@ body{
     border-radius: 999;
 }
 
+.main_text a{
+    text-decoration: underline;
+    color: rgb(0, 108, 209);
+}
+
+.main_text a:hover{
+    text-decoration: underline;
+    color: rgb(75, 163, 221);
+}
+
 .title{
     background-color: rgb(226, 192, 148);
     display: inline-block;
@@ -106,7 +128,7 @@ body{
     font-weight: bolder;
     font-size: 75px;
     border: 0px solid seagreen;
-    border-radius: 100%;
+    border-radius: 9999px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -186,7 +208,18 @@ a:hover {
 .menu h1, h2, p {
     font-family: "QueensidesM";
     text-align: center;
-  }
+}
+
+.printable {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.printable img {
+    max-width: 50%;
+    height: auto;
+}
 
  hr{
     height: 1px;
